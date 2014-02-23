@@ -116,8 +116,10 @@ $path       = sprintf('%s/%s/', $mainpath, $version);
                                 if (!isset($_GET['file']) or $_GET['file'] == ''){
                                     echo markdown( $path . 'introduction.md' );
                                 }
+                                else{
+                                    echo markdown( $path . $_GET['file'] . '.md' );
+                                }
 
-                                echo markdown( $path . $_GET['file'] . '.md' );
 
                             ?>
                          <!-- /docs content -->
