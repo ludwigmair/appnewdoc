@@ -1,0 +1,781 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"url",
+				"url()"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"att",
+				"attr"
+			],
+			[
+				"ex",
+				"exportCsv"
+			],
+			[
+				"trans",
+				"trans raw	trans-raw"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+<<<<<<< HEAD
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 7661,
+				"line_ending": "Unix"
+			}
+		}
+=======
+>>>>>>> ec72035498619216270dd4f22a1217bfa214625e
+	],
+	"build_system": "Packages/Compass/Compass.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"snixlf",
+				"Snippet: flow-xlf-item"
+			],
+			[
+				"sniflo",
+				"Snippet: flow-translate-simple"
+			],
+			[
+				"sniflotrsi",
+				"Snippet: flow-translate-simple"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"synty",
+				"Set Syntax: TypoScript"
+			],
+			[
+				"syncss",
+				"Set Syntax: CSS"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntty",
+				"Set Syntax: TypoScript"
+			],
+			[
+				"sybty",
+				"Set Syntax: Ruby"
+			],
+			[
+				"synthtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"synhtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"synht",
+				"Set Syntax: HTML"
+			],
+			[
+				"sunty",
+				"Set Syntax: Regular Expressions (Python)"
+			],
+			[
+				"SYNTY",
+				"Set Syntax: TypoScript"
+			],
+			[
+				"syntyp",
+				"Set Syntax: TypoScript"
+			],
+			[
+				"syntypo",
+				"Set Syntax: TypoScript"
+			],
+			[
+				"snilan",
+				"Snippet: lang"
+			],
+			[
+				"snirou",
+				"Snippet: routes"
+			],
+			[
+				"tran",
+				"Snippet: trans-raw"
+			],
+			[
+				"trara",
+				"Snippet: trans-raw"
+			],
+			[
+				"traw",
+				"Snippet: trans-raw"
+			],
+			[
+				"snilang",
+				"Snippet: lang"
+			],
+			[
+				"snicon",
+				"Snippet: controller"
+			],
+			[
+				"snicont",
+				"Snippet: controller"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snimod",
+				"Snippet: model"
+			],
+			[
+				"sniro",
+				"Snippet: routes"
+			],
+			[
+				"SNITR",
+				"Snippet: trans-raw"
+			],
+			[
+				"snishow",
+				"Snippet: blshow"
+			],
+			[
+				"sniedi",
+				"Snippet: bledit"
+			],
+			[
+				"snico",
+				"Snippet: controller"
+			],
+			[
+				"snitra",
+				"Snippet: trans-raw"
+			],
+			[
+				"snitr",
+				"Snippet: trans"
+			],
+			[
+				"snimodel",
+				"Snippet: model"
+			],
+			[
+				"snicontroller",
+				"Snippet: controller"
+			],
+			[
+				"snip routes",
+				"Snippet: routes"
+			],
+			[
+				"snirout",
+				"Snippet: routes"
+			],
+			[
+				"generatecon",
+				"Laravel Generate: Controller"
+			],
+			[
+				"snit",
+				"Snippet: trans"
+			],
+			[
+				"tra",
+				"Snippet: trans"
+			],
+			[
+				"snitrr",
+				"Snippet: trans-raw"
+			],
+			[
+				"snitrra",
+				"Snippet: trans-raw"
+			],
+			[
+				"sniptra",
+				"Snippet: trans-raw"
+			],
+			[
+				"snitrara",
+				"Snippet: trans-raw"
+			],
+			[
+				"sniptrara",
+				"Snippet: trans-raw"
+			],
+			[
+				"snitransra",
+				"Snippet: trans-raw"
+			],
+			[
+				"lara",
+				"Laravel Generate: Model"
+			],
+			[
+				"laracon",
+				"Laravel Generate: Controller"
+			],
+			[
+				"artmo",
+				"Laravel Generate: Model"
+			],
+			[
+				"larav",
+				"Laravel Generate: Model"
+			],
+			[
+				"laravel",
+				"Laravel Generate: Model"
+			],
+			[
+				"artis",
+				"Snippet: Artisan-call"
+			],
+			[
+				"form",
+				"Snippet: form"
+			],
+			[
+				"snippbla",
+				"Snippet: blade-layout"
+			],
+			[
+				"snip",
+				"Snippet: form"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 629.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+<<<<<<< HEAD
+		"/Users/test/www/appnewdoc/versions/dev/doc.md",
+		"/Users/test/www/appnewdoc/untitled.sublime-project",
+=======
+>>>>>>> ec72035498619216270dd4f22a1217bfa214625e
+		"/Users/test/www/appdoc/public/test.php",
+		"/Users/test/www/appdoc/public/versions/dev/doc.md",
+		"/Users/test/www/appdoc/public/md/test.md",
+		"/Users/test/www/appdoc/public/sass/test.md",
+		"/Users/test/www/wwn/application/views/emails/confirm-copyto-wasserversorger.blade.php",
+		"/Users/test/www/wwn/storage/views/4bd14c1cb5260da1f3f979231e7694db",
+		"/Users/test/www/wwn/application/views/emails/confirm-teilnehmer.blade.php",
+		"/Users/test/www/wwn/application/views/pdf/rechnung.blade.php",
+		"/Users/test/www/wwn/storage/views/521bab7c192c9c58e0c7cdb74816f78b",
+		"/Users/test/www/wwn/application/views/emails/bodyTopEinladungstext.blade.php",
+		"/Users/test/www/wwn/application/config/application.php",
+		"/Users/test/www/wwn/application/views/pdf/index.blade.php",
+		"/Users/test/www/wwn/wwwnbt/.htaccess",
+		"/Users/test/www/wwn/application/config/database.php",
+		"/Users/test/www/bootstrap/css/fixed-navbar-top.css",
+		"/Users/test/www/bootstrap/js/bootstrap.js",
+		"/Users/test/www/bootstrap/css/bootstrap-theme.css.map",
+		"/Users/test/www/appdoc/public/sass/partials/_typography.scss",
+		"/Users/test/www/appdoc/public/sass/partials/_plugins.scss",
+		"/Users/test/www/appdoc/public/sass/partials/_application.scss",
+		"/Users/test/www/appdoc/public/sass/config/_variables.scss",
+		"/Users/test/www/appdoc/public/sass/partials/_font.scss",
+		"/Users/test/www/appdoc/public/sass/css/plugins.css",
+		"/Users/test/www/appdoc/public/js/application.js",
+		"/Users/test/www/appdoc/public/sass/partials/_helpers.scss",
+		"/Users/test/www/appdoc/public/sass/partials/_tables.scss",
+		"/Users/test/www/appdoc/public/sass/partials/_pagination.scss",
+		"/Users/test/www/appdoc/public/sass/partials/_forms.scss",
+		"/Users/test/www/appdoc/public/sass/partials/_buttons.scss",
+		"/Users/test/www/appdoc/public/sass/partials/_backgrounds.scss",
+		"/Users/test/www/appdoc/public/sass/partials/_alerts.scss",
+		"/Users/test/www/appdoc/public/sass/css/animations.css",
+		"/Users/test/www/appdoc/public/sass/css/application.css",
+		"/Users/test/www/appdoc/public/sass/style.scss",
+		"/Users/test/www/appdoc/public/css copy/animations.css",
+		"/Users/test/www/appdoc/public/sass/partials/_scaffolding.scss",
+		"/Users/test/www/appdoc/public/css copy/scaffolding.css",
+		"/Users/test/www/appdoc/public/sass/partials/_workless.scss",
+		"/Users/test/www/appdoc/public/css copy/workless.css",
+		"/Users/test/www/appdoc/public/sass/config.rb",
+		"/Users/test/www/appdoc/public/test/style.css",
+		"/Users/test/www/appdoc/public/stylesheets/style.css",
+		"/Users/test/www/appdoc/public/sass/_style.scss",
+		"/Users/test/www/appdoc/public/sass/minified.css.php",
+		"/Users/test/www/appdoc/public/sass/partials/_style.scss",
+		"/Users/test/www/xxx/Sass/full-width.scss",
+		"/Users/test/www/appserverdocu/css/application.css",
+		"/Users/test/www/appserverdocu/css/typography.css",
+		"/Users/test/www/appserverdocu/css/minified.css.php",
+		"/Users/test/www/appserverdocu/index.html",
+		"/Users/test/www/appserverdocu/css/ie.css",
+		"/Users/test/www/appserverdocu/css/style.css",
+		"/Users/test/www/appserverdocu/packages.css",
+		"/Users/test/www/appserverdoc/index.html",
+		"/Users/test/www/appserverdocu/index.css",
+		"/Users/test/www/appserverdocu/js/application.js",
+		"/Users/test/www/laravelfaker/app/database/seeds/UsersTableSeeder.php",
+		"/Users/test/www/laravelfaker/app/database/migrations/2014_02_14_160454_create_users_table.php",
+		"/Users/test/www/laravelfaker/app/database/migrations/2014_02_14_163054_create_posts_table.php",
+		"/Users/test/www/laravelfaker/app/database/migrations/2014_02_14_154231_create_post_table.php",
+		"/Users/test/www/laravelfaker/app/database/migrations/2014_02_14_160905_create_posts_table.php",
+		"/Users/test/www/laravelfaker/app/database/seeds/DatabaseSeeder.php",
+		"/Users/test/www/laravelfaker/app/database/migrations/2014_02_14_152455_create_users_table.php",
+		"/Users/test/www/laravelfaker/app/database/migrations/2014_02_14_152218_create_users_table.php",
+		"/Users/test/www/laravelfaker/app/database/migrations/2014_02_14_145235_create_users_table.php",
+		"/Users/test/www/laravelfaker/app/config/database.php",
+		"/Users/test/www/laravelfaker/app/config/app.php",
+		"/Users/test/www/authessentials/composer.json",
+		"/Users/test/www/laravelfaker/composer.json",
+		"/Users/test/www/authessentials/app/routes.php",
+		"/Users/test/www/authessentials/.env.local.php",
+		"/Users/test/www/authessentials/bootstrap/start.php",
+		"/Users/test/www/authessentials/bootstrap/.env.local.php",
+		"/Users/test/www/authessentials/app/config/local/database.php",
+		"/Users/test/www/authessentials/vendor/nesbot/carbon/tests/SubTest.php",
+		"/Users/test/www/authessentials/server.php",
+		"/Users/test/www/authessentials/app/Acme/Services/Validators/UsersValidator.php",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Private/Partials/Sidebar.html",
+		"/Users/test/www/authessentials/app/views/partials/sidebar.blade.php",
+		"/Users/test/www/authessentials/app/views/layouts/interface.blade.php",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Configuration/Routes.yaml",
+		"/Users/test/www/flow1/Configuration/Routes.yaml",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Configuration/Custom.yaml",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Configuration/Settings.yaml",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Classes/Acme/Demo/Controller/CoffeeBeanController.php",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Private/Templates/CoffeeBean/Index.html",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Configuration/Policy.yaml",
+		"/Users/test/Downloads/RobertLemke.Example.Bookshop/Configuration/Routes.yaml",
+		"/Users/test/www/flow1/Packages/Application/RobertLemke.Example.Bookshop/Configuration/Routes.yaml",
+		"/Users/test/Downloads/RobertLemke.Example.Bookshop/Configuration/Settings.yaml",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Classes/Acme/Demo/Controller/LoginController.php",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Private/Templates/Login/Index.html",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Private/Translations/de/Main.xlf",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Classes/Acme/Demo/Domain/Model/CoffeeBean.php",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Private/Templates/CoffeeBean/New.html",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Private/Translations/en/Main.xlf",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Private/Templates/Login/Register.html",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Classes/Acme/Demo/Domain/Repository/UserRepository.php",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Classes/Acme/Demo/Domain/Model/User.php",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Classes/Acme/Demo/ViewHelpers/AccountViewHelper.php",
+		"/Users/test/www/flow1/Packages/Application/Witte.Kanban/Configuration/Routes.yaml",
+		"/Users/test/Library/Application Support/Sublime Text 3/Packages/User/flow-xlf-item.sublime-snippet",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Private/Layouts/Login.html",
+		"/Users/test/Library/Application Support/Sublime Text 3/Packages/User/trans.sublime-snippet",
+		"/Users/test/Library/Application Support/Sublime Text 3/Packages/User/flow-translate-simple.sublime-snippet",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Private/Layouts/Default.html",
+		"/Users/test/www/flow1/Packages/Application/-Mp.Blog/Configuration/Routes.yaml",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Private/Partials/CssHeader.html",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Classes/Acme/Demo/ViewHelpers/ScriptViewHelper.php",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Private/Partials/JsFooter.html",
+		"/Users/test/Downloads/Admin/Classes/ViewHelpers/IconViewHelper.php",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Public/Css/font-awesome.min.css",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Public/Css/font-awesome.css",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Resources/Private/Templates/CoffeeBean/Show.html",
+		"/Users/test/www/flow1/Packages/Application/Mp.Blog/Classes/Mp/Blog/Domain/Model/Blog.php",
+		"/Users/test/www/flow1/Packages/Application/Acme.Demo/Classes/Acme/Demo/Domain/Repository/CoffeeBeanRepository.php",
+		"/Users/test/www/flow1/Packages/Application/Mp.Blog/Classes/Mp/Blog/Domain/Repository/BlogRepository.php",
+		"/Users/test/www/flow1/Packages/Application/Mp.Blog/Classes/Mp/Blog/Controller/StandardController.php",
+		"/Users/test/www/flow1/Packages/Framework/TYPO3.Flow/Documentation/TheDefinitiveGuide/PartIII/Persistence.rst",
+		"/Users/test/www/flow1/Packages/Application/Mp.Blog/Configuration/Routes.yaml",
+		"/Users/test/www/flow1/Packages/Application/Mp.Blog/Classes/Mp/Blog/Controller/IndexController.php",
+		"/Users/test/www/flow1/Packages/Application/Mp.Blog/Configuration/Settings.yaml",
+		"/Users/test/www/flow1/Packages/Application/Mp.One/Classes/Mp/One/Domain/Repository/OneRepository.php",
+		"/Users/test/www/flow1/Packages/Application/Mp.One/Configuration/Settings.yaml",
+		"/Users/test/www/flow1/Packages/Application/Mp.One/Classes/Mp/One/Controller/StandardController.php",
+<<<<<<< HEAD
+		"/Users/test/www/flow1/Packages/Application/Mp.One/Classes/Mp/One/Controller/OneController.php"
+=======
+		"/Users/test/www/flow1/Packages/Application/Mp.One/Classes/Mp/One/Controller/OneController.php",
+		"/Users/test/www/flow1/Packages/Application/Mp.One/Classes/Mp/One/Domain/Model/One.php",
+		"/Users/test/www/flow1/Packages/Application/Mp.One/Resources/Private/Templates/One/Index.html"
+>>>>>>> ec72035498619216270dd4f22a1217bfa214625e
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/Users/test/www/appdoc/public/sass",
+			"",
+			"/Users/test/www/neostest/Packages/Sites/TYPO3.NeosDemoTypo3Org",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"\"",
+			"=\"\">",
+			"/docs/cache",
+			"MarkdownExtra",
+			"sign",
+			"verbindlich angemeldet",
+			"Einladung",
+			"<br>",
+			"wwwnbt",
+			"'ssl' => false,",
+			"https",
+			"code {",
+			"p code",
+			"code",
+			"F26562",
+			"code",
+			"f4645f",
+			"50",
+			"hover",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"laravel",
+			"Laravel",
+			"nolist",
+			"px",
+			"20",
+			"px",
+			"border-radius",
+			"2",
+			"2px",
+			"-radius: 2px",
+			"adius: 2px",
+			"2px",
+			"border-radius: 2px",
+			"2px",
+			":",
+			"4.1",
+			"4.0",
+			"222222",
+			"#f5f5f5",
+			"f5f5f5",
+			"#454545",
+			"opacity:0",
+			"opti",
+			"font-size: 12px",
+			"25",
+			"512px",
+			"25px",
+			"1024px",
+			"opacity:0",
+			"')",
+			"url('",
+			".css",
+			"img/backgrounds/",
+			"../",
+			"../img",
+			"</li>",
+			"href=\"docs\"",
+			"<li class=\"current-item\"><a href=\"docs\" title=\"Documentation\">Documentation</a></li>",
+			"http://twitter.com/laravelphp",
+			"http://forums.laravel.io/",
+			"https://github.com/laravel/laravel",
+			"Laravel Framework API",
+			"http://laravel.com/api/4.0",
+			"			",
+			"->unique()",
+			"user",
+			"</a>",
+			"<a href=\"\">",
+			"settings",
+			"Settings",
+			"settings",
+			"password",
+			"Brain",
+			"			<trans-unit id=\"submit\" xml:space=\"preserve\">\n				<source>senden</source>\n			</trans-unit>",
+			", package: 'Acme.Demo'",
+			"</a>",
+			"<a href",
+			"', '",
+			"', Con",
+			"}}",
+			"{{ HTML::activateLink('",
+			"../font",
+			"') }}",
+			"{{ HTML::script('js/",
+			"blog",
+			"Blog",
+			"blog",
+			"Blog",
+			"blog",
+			"Blog"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+<<<<<<< HEAD
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1762,
+								1767
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 512.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+=======
+			"sheets":
+			[
+>>>>>>> ec72035498619216270dd4f22a1217bfa214625e
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"css/style.css"
+			],
+			[
+				"index",
+				"index.css"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"start",
+				"bootstrap/start.php"
+			],
+			[
+				"synty",
+				"ext/mptheme/Resources/Public/Contrib/Yaml4/sass/yaml-sass/screen/_typography.scss"
+			],
+			[
+				"data",
+				"app/config/local/database.php"
+			],
+			[
+				"rou",
+				"app/routes.php"
+			],
+			[
+				"liste",
+				"authessentials/app/models/Liste.php"
+			],
+			[
+				"database",
+				"app/config/database.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 336.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
