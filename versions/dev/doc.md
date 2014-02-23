@@ -10,5 +10,4 @@
     - [Installing TYPO3 6.2](?file=)
     - [Installing TYPO3 Neos](?file=)
     - [Installing Wordpress](?file=)
-    - [Installing Laravel PHP Framework](?file=)
-    - [Installing TYPO3 flow PHP Framework](?file=)
+
