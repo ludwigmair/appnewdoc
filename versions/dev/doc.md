@@ -10,4 +10,3 @@
     - [Installing TYPO3 6.2](?file=)
     - [Installing TYPO3 Neos](?file=)
     - [Installing Wordpress](?file=)
-
