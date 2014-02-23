@@ -10,11 +10,10 @@ function markdown($file){
     $parsedown  = new Parsedown();
  
     // fetch file content
-    $output =  file_get_contents( $file );
+    $output     =  file_get_contents( $file );
 
     // output content using parsedown
     return (($output) ? $parsedown->parse( $output ) : '<div class="alert">sorry, but the required file does not exist</div>' );
-
 }
 
 // main folder version. contains all version docs
@@ -112,7 +111,15 @@ $path       = sprintf('%s/%s/', $mainpath, $version);
                         <!-- /docs nav -->
                         <!-- docs content -->
                         <div id="docs-content">
-                            <?= markdown( $path . $_GET['file'] . '.md' ) ?>
+                            <?php
+
+                                if (!isset($_GET['file']) or $_GET['file'] == ''){
+                                    echo markdown( $path . 'introduction.md' );
+                                }
+
+                                echo markdown( $path . $_GET['file'] . '.md' );
+
+                            ?>
                          <!-- /docs content -->
                     </article>
                 </section>
