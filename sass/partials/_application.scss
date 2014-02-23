@@ -606,10 +606,10 @@
         bottom: 0;
     }
     #copyright a {
-        color: #666666;
+        color: $copyright-a-color;
     }
     #copyright a:hover {
-        color: #999999;
+        color: $copyright-a-color-hover;
     }
     /*
     ----------------------------------------------------------

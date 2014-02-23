@@ -9359,7 +9359,7 @@ Copyright
 */
 /* line 594, ../sass/partials/_application.scss */
 #copyright {
-  background: #4fb3c6;
+  background: #12454d;
   border-top: 1px solid gray;
   width: 100%;
   color: #555555;
@@ -9375,12 +9375,12 @@ Copyright
 
 /* line 608, ../sass/partials/_application.scss */
 #copyright a {
-  color: #666666;
+  color: #cccccc;
 }
 
 /* line 611, ../sass/partials/_application.scss */
 #copyright a:hover {
-  color: #999999;
+  color: white;
 }
 
 /*

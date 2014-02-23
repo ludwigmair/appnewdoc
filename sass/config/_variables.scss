@@ -12,6 +12,7 @@ $peacockgreen: 				#12A6B3;
 $green: 					#46a546;
 $iceblue: 					#4FB3C6;
 $pastellblue: 				#8CD6EC;
+$darkiceblue: 				#12454d;
 
 $px-2: 						2px;
 $px-4: 						4px;
@@ -72,7 +73,9 @@ $version-padding: 			3px 8px;
 $version-hover-background: 	$white;			
 $version-hover-color: 		$iceblue;			
  		
-$copyright-background: 		$iceblue;
+$copyright-background: 		$darkiceblue;
+$copyright-a-color: 		$mediumgrey;
+$copyright-a-color-hover: 	$white;
 
 $totop-bottom: 				$px-35;
 $totop-right: 				$px-50;
