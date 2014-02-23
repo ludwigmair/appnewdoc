@@ -4,22 +4,27 @@
 // include lib to convert markdown to html
 include('contrib/Parsedown.php');
 
-// initialize parser
-$parsedown  = new Parsedown();
+function markdown($file){
+    
+    // initialize parser
+    $parsedown  = new Parsedown();
+    
+    if( is_file( $file ) ){
+
+        // fetch file content
+        $output =  file_get_contents( $file );
+
+    }
+    // output content using parsedown
+    return (($output) ? $parsedown->parse( $output ) : '<div class="alert">sorry, but the required file does not exist</div>' );
+
+}
 
 // main folder version. contains all version docs
-<<<<<<< HEAD
-$version    = 'dev/';
-
-// path 
-$path       = 'versions/dev/';
-
-=======
+$mainpath   = 'versions';
 $version    = 'dev';
+$path       = sprintf('%s/%s/', $mainpath, $version);
 
-// path 
-$path       = 'https://raw2.github.com/ludwigmair/appnewdoc/master/versions/dev/';
->>>>>>> ec72035498619216270dd4f22a1217bfa214625e
 ?>
 <!doctype html>
 
@@ -59,7 +64,7 @@ $path       = 'https://raw2.github.com/ludwigmair/appnewdoc/master/versions/dev/
 </head>
 
 <body id="index" class="page docs">
-
+ 
     <!-- wrapper -->
     <div id="wrapper">
 
@@ -114,88 +119,13 @@ $path       = 'https://raw2.github.com/ludwigmair/appnewdoc/master/versions/dev/
                     <!-- docs nav -->
                     <nav id="docs">
                         <!-- Pull table of contents -->
-                        <?php
-
-
-                       // file, path can be also a direct link to the raw file source at github like
-<<<<<<< HEAD
-                        // https://raw2.github.com/ludwigmair/appnewdoc/master/versions/dev/
-                        $file = $path . 'doc.md';
-=======
-                        // https://raw2.github.com/techdivision/master/doc/documentation.md
-                        $file = $path . $version . '/doc.md';
->>>>>>> ec72035498619216270dd4f22a1217bfa214625e
-
-                        // check if file exists
-                        if( is_file( $file ) ){
-                            
-                            // fetch file content
-                            $output     =  file_get_contents( $file );
-
-                            // output content using parsedown
-                            echo $parsedown->parse( $output );
-
-                        }
-                        else{
-                            echo '<div class="alert">sorry, but the required file does not exist</div>'; 
-                        }
-
-
-
-                        ?>
+                        <?= markdown( $path . 'doc.md' ) ?>
                     </nav>
                     <!-- /docs nav -->
 
                     <!-- docs content -->
                     <div id="docs-content">
- 
-                        <?php
-
-<<<<<<< HEAD
- 
-
-                       // file, path can be also a direct link to the raw file source at github like
-                        // https://raw2.github.com/techdivision/master/doc/documentation.md
-                        $file       = $path . $_GET['file'].'.md';
-=======
-                        // main folder version. contains all version docs
-                        $version    = 'dev';
-                        
-                        // path 
-                        $path       = 'versions/';
-
-                       // file, path can be also a direct link to the raw file source at github like
-                        // https://raw2.github.com/techdivision/master/doc/documentation.md
-                        $file       = $path . $version . '/' . $_GET['file'].'.md';
->>>>>>> ec72035498619216270dd4f22a1217bfa214625e
-
-                        // check if file exists
-                        if( is_file( $file ) ){
-                            
-                            // fetch file content
-                            $output     =  file_get_contents( $file );
-
-                            // output content using parsedown
-                            echo $parsedown->parse( $output );
-
-                        }
-                        else{
-<<<<<<< HEAD
-                         
-                            // fetch file content
-                            $output     =  file_get_contents( $path . 'introduction.md' );
-
-                            // output content using parsedown
-                            echo $parsedown->parse( $output );                            
-=======
-                            echo '<div class="alert">sorry, but the required file does not exist</div>'; 
->>>>>>> ec72035498619216270dd4f22a1217bfa214625e
-                        }
-
-
-
-                        ?>
-                      
+                        <?= markdown( $path . $_GET['file'] . '.md' ) ?>
  
                     <!-- /docs content -->
 
